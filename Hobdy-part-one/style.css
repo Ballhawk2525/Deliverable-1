@@ -41,6 +41,10 @@ a:hover {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #CCC;
+}
+
 @media screen and (min-width: 768px) {
     .nav {
         flex-direction: column;

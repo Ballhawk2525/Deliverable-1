@@ -20,7 +20,7 @@ div {
 .nav {
 color: #88898B;
 display: flex;
-flex-flow: row wrap;
+flex-flow: row nowrap;
 justify-content: flex-end;
 }
 

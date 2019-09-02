@@ -26,11 +26,13 @@ justify-content: flex-end;
 
 li {
     display: inline;
+    float: right;
 }
 
 a {
     text-decoration: none;
     color: #88898B;
+    padding: 12px;
 }
 
 a:hover {

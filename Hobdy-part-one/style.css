@@ -80,7 +80,7 @@ a:hover {
 }
 
 #paragraph {
-
+display: flex;
 }
 
 h1 {

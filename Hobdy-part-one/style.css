@@ -7,6 +7,7 @@ html {
 
 div {
     display: flex;
+    flex-flow: row nowrap;
 }
 body {
    min-height: 100%;

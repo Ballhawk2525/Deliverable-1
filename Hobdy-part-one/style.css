@@ -1,7 +1,7 @@
 html {
     font-family: 'Fira Sans', sans-serif;
     background-color: #F0ECEE;
-    background-image: bulldogs.jpg; 
+    background-image: url("bulldog.jpg"); 
 }
 
 div {
@@ -15,10 +15,13 @@ div {
 
 .nav {
 color: #88898B;
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-end;
 }
 
 @media screen and (min-width: 768px) {
     .nav {
-        background-image: none;
+        flex-direction: column;
     }
 }

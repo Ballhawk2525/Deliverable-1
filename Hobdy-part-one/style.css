@@ -18,12 +18,20 @@ div {
 .nav {
 color: #88898B;
 display: flex;
-flex-flow: row-reverse nowrap;
+flex-flow: row nowrap;
 justify-content: space-between;
+}
+
+.nav a {
+    float: right;
 }
 
 .nav:hover {
     color: #FF4850;
+}
+
+#ul {
+    
 }
 
 li {

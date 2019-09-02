@@ -46,6 +46,7 @@ a:hover {
     border-radius: 15px;
     cursor: pointer;
     border: none;
+    position: relative;
 }
 
 .button:hover {

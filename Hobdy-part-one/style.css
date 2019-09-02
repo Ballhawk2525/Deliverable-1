@@ -29,6 +29,10 @@ a {
     color: #88898B;
 }
 
+a:hover {
+    color: #FF4850;
+}
+
 .button {
     background-color: #FF4850;
     padding: 10px;

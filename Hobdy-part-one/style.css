@@ -1,7 +1,7 @@
 html {
     font-family: 'Fira Sans', sans-serif;
     background-color: #F0ECEE;
-    background-image: url("bulldog.jpg"); 
+    background-image: url("images/bulldog.jpg"); 
 }
 
 div {
@@ -34,9 +34,11 @@ a:hover {
 }
 
 .button {
+    color: white;
     background-color: #FF4850;
     padding: 10px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

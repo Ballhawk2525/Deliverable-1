@@ -9,8 +9,10 @@ div {
     display: flex;
     flex-flow: row nowrap;
 }
+
 body {
    min-height: 100%;
+
 }
 
 .header {
@@ -48,7 +50,6 @@ overflow: hidden;
 }
 
 li {
-    display: inline;
     float: left;
 }
 
@@ -92,6 +93,6 @@ h2 {
     color: #88898B;
     font-weight: 300;
 }
- @media screen and (min-width: 768px; {
+ @media screen and (min-width: 768p) {
 
  }

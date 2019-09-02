@@ -7,7 +7,6 @@ html {
 
 div {
     display: flex;
-    border: black;
 }
 body {
    min-height: 100%;

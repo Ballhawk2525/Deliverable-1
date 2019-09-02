@@ -24,6 +24,10 @@ justify-content: flex-end;
     color: #FF4850;
 }
 
+li {
+    display: inline;
+}
+
 a {
     text-decoration: none;
     color: #88898B;

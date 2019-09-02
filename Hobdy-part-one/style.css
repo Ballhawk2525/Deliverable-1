@@ -63,6 +63,9 @@ a:hover {
     position: relative;
 }
 
+.button li {
+    justify: baseline;
+}
 .button:hover {
     background-color: #CCC;
 }

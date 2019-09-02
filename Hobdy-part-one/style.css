@@ -1,9 +1,24 @@
 html {
     font-family: 'Fira Sans', sans-serif;
     background-color: #F0ECEE;
+    background-image: url(bulldog.jpg); 
+}
+
+div {
+    display: flexbox;
+    flex-flow: row wrap;  
+}
+
+.header {
+    
 }
 
 .nav {
 color: #88898B;
 }
 
+@media screen and (min-width: 768px) {
+    .nav {
+        background-image: none;
+    }
+}

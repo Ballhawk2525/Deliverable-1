@@ -32,6 +32,7 @@ li {
 }
 
 a {
+    display: inline;
     text-decoration: none;
     color: #88898B;
     padding: 4px;

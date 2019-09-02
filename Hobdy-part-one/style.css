@@ -4,12 +4,13 @@ html {
     background-image: url("images/bulldog.jpg"); 
 }
 
-div { 
+div {
 }
 
 .header {
     padding: 12px;
     margin: 10px;
+    font-weight: 400;
 }
 
 .emphasis {
@@ -71,6 +72,19 @@ a:hover {
 }
 .button:hover {
     background-color: #CCC;
+}
+
+#paragraph {
+
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    color: #88898B;
+    font-weight: 300;
 }
 
 @media screen and (min-width: 768px) {

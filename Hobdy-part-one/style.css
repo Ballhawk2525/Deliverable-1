@@ -75,7 +75,7 @@ a:hover {
 }
 
 .button li {
-    justify: baseline;
+    align-items: baseline;
 }
 .button:hover {
     background-color: #CCC;

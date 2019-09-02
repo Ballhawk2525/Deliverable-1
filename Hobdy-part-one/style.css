@@ -21,11 +21,12 @@ justify-content: flex-end;
 }
 
 .nav:hover {
-
+    color: #FF4850;
 }
 
 a {
     text-decoration: none;
+    color: #88898B;
 }
 
 .button {

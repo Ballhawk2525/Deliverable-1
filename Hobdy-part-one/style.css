@@ -5,11 +5,6 @@ html {
     height: 100%;
 }
 
-div {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
 body {
    min-height: 100%;
 
@@ -90,5 +85,10 @@ h2 {
     font-weight: 300;
 }
  @media screen and (min-width: 768p) {
-
+    html {
+        background-image: none;
+    }
+    .nav {
+        flex-direction: column;
+    }
  }

@@ -96,8 +96,4 @@ h2 {
     .nav {
         flex-direction: column;
     }
-
-    .button {
-        width: 100%;
-    }
 }

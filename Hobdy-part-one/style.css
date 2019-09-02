@@ -8,7 +8,7 @@ div {
 }
 
 .header {
-    color:
+    
 }
 
 .emphasis {
@@ -20,6 +20,8 @@ color: #88898B;
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-between;
+float: right;
+overflow: hidden;
 }
 
 .nav a {
@@ -32,7 +34,7 @@ justify-content: space-between;
 }
 
 #ul {
-    float: right;
+    overflow: hidden;
 }
 
 li {

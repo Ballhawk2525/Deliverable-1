@@ -4,9 +4,7 @@ html {
     background-image: url("images/bulldog.jpg"); 
 }
 
-div {
-    display: flex;
-    flex-flow: row wrap;  
+div { 
 }
 
 .header {
@@ -36,7 +34,7 @@ li {
 a {
     text-decoration: none;
     color: #88898B;
-    padding: 12px;
+    padding: 4px;
 }
 
 a:hover {

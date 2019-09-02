@@ -20,6 +20,20 @@ flex-flow: row wrap;
 justify-content: flex-end;
 }
 
+.nav:hover {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 @media screen and (min-width: 768px) {
     .nav {
         flex-direction: column;

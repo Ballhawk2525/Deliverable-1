@@ -2,6 +2,7 @@ html {
     font-family: 'Fira Sans', sans-serif;
     background-color: #F0ECEE;
     background-image: url("/Hobdy-part-one/Images/bulldog.jpg") no-repeat 0 0;
+    background-size: 50%;
     height: 100%;
 }
 

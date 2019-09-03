@@ -1,12 +1,13 @@
 html {
     font-family: 'Fira Sans', sans-serif;
     background-color: #F0ECEE;
-    background: url("images/bulldog.jpg") no-repeat 0 0;
+    background: url("Images/bulldog.jpg") no-repeat 0 0;
     height: 100%;
 }
 
 body {
    min-height: 100%;
+   display: flex;
 }
 
 .header {

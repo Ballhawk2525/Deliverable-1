@@ -1,18 +1,22 @@
 html {
     font-family: 'Fira Sans', sans-serif;
-    background-color: #F0ECEE;
+    background: #F0ECEE;
     height: 100%;
 }
 
-body {
+.body {
    min-height: 100%;
+   width: 100%;
    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
 }
 
 .header {
     padding: 12px;
     margin: 10px;
     font-weight: 400;
+    width: 100%;
 }
 
 .emphasis {
@@ -67,13 +71,18 @@ a:hover {
     cursor: pointer;
     border: none;
     position: relative;
+    width: auto;
 }
 
-.button li {
-    align-items: baseline;
-}
 .button:hover {
     background-color: #CCC;
+}
+
+#parent {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 h1 {
@@ -83,12 +92,15 @@ h1 {
 h2 {
     color: #88898B;
     font-weight: 300;
-}
+    }
+
+
  @media screen and (min-width: 768p) {
     html {
         background-image: none;
+        background-color: #F0ECEE; 
     }
     .nav {
-        flex-direction: column;
+        flex-flow: column wrap;
     }
  }

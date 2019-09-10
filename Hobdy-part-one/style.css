@@ -1,6 +1,6 @@
 html {
     font-family: 'Fira Sans', sans-serif;
-    background: #F0ECEE;
+    background-color: #F0ECEE;
     height: 100%;
 }
 
@@ -76,6 +76,7 @@ a:hover {
 
 .button:hover {
     background-color: #CCC;
+    color: #FF4850;
 }
 
 #parent {
@@ -94,11 +95,19 @@ h2 {
     }
 
 
- @media screen and (min-width: 768p) {
+
+ @media screen and (min-width: 768px) {
     html {
         background-color: #F0ECEE; 
     }
+    .body {
+        flex-flow: column;
+    }
     .nav {
+        display: flex;
         flex-flow: column wrap;
+    }
+    #bulldog {
+        display: none;
     }
  }

@@ -4,19 +4,13 @@ html {
     height: 100%;
 }
 
-.body {
-   min-height: 100%;
-   width: 100%;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: space-evenly;
+body {
+    height: 100vh;
 }
 
-.header {
-    padding: 12px;
-    margin: 10px;
-    font-weight: 400;
-    width: 100%;
+header {
+    display: flex;
+    flex-direction: column;
 }
 
 .emphasis {
@@ -25,27 +19,21 @@ html {
 
 .nav {
 color: #88898B;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-between;
-float: right;
-overflow: hidden;
 }
 
-.nav a {
-    float: right;
-    overflow: hidden;
-}
+
+
 
 .nav:hover {
     color: #FF4850;
 }
 
-#ul {
+ul {
     list-style-type: none;
-    overflow: hidden;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -71,7 +59,7 @@ a:hover {
     cursor: pointer;
     border: none;
     position: relative;
-    width: auto;
+    width: 100%;
 }
 
 .button:hover {
@@ -100,14 +88,25 @@ h2 {
     html {
         background-color: #F0ECEE; 
     }
-    .body {
-        flex-flow: column;
-    }
-    .nav {
+    body {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column;
+        background-image: url(./Images/bulldog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
-    #bulldog {
-        display: none;
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    .button {
+        width: auto;
     }
  }
